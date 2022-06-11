@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6E6;
+    text-align: center;
+    height: 188px;
+}
+
+h1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #005677;
+    background-color: #c4c4c4;
+    text-align: center;
+    height: 60px;
+}
+
+h3{
+    font-size: 20px;
+    display: flex;
+    padding-left: 12.45px;
+    align-items: center;
+    color: #005677;
+    background-color: #c4c4c4;
+    height: 60px;
+}
+
+.vacio{
+    height: 128px;
+}
+
+
+footer{
+    background-color: #005677;
+}
+

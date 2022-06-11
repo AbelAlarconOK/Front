@@ -1,0 +1,37 @@
+
+/* SELECTOR DE ETIQUETA */
+
+.logo_img{
+    width: 80px;
+}
+
+.main_img{
+    width: 400px;
+}
+
+
+/*SELECTOR DE CLASE*/
+/*caracteristicas es reutilizable*/
+
+.textos-home{
+    color: rgba(178, 34, 34, 0.267);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subtitulos{
+    background-color: #000;
+}
+
+/* PONER IMAGEN DE FONDO */
+.header_backgorund{
+    background-image: url('') ;
+    background-size: cover;
+
+}
+
+/*SELECTOR ID*/
+/*solo para un elemento*/
+
+#titulo-home{
+    font-size: 100px;
+}
