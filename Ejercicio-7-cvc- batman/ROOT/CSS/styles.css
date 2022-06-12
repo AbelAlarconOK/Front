@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 header{
@@ -38,6 +40,13 @@ h3{
 
 
 footer{
+    display: flex;
     background-color: #005677;
+    justify-content: center;
 }
+
+footer span, img{
+    margin: 10px;
+}
+
 
