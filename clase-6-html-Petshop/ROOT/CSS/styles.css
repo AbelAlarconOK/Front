@@ -4,15 +4,32 @@
     padding: 0;
 }
 
+body{
+    margin: 0;
+}
 
-header section.superior{
+/* HEADER DE MI PAGINA */
+
+header .superior{
     background-color: #222222;
     color:#F3F3F3;
     height: 30px;
 }
 
+header .superior div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: -20px;
+}
+
+header .superior div p{
+    margin-right: 10px;
+}
+
+
 .texto_header_superior{
-    margin-left: 20px;
+    margin-left: 90px;
     height: 5px;
 }
 
@@ -25,7 +42,7 @@ header section.superior{
 }
 
 section .logo_principal{
-    margin-right: 800px;
+    margin-right: 750px;
 }
 
 section .logo_principal img{
@@ -47,6 +64,8 @@ section nav .links li a{
     text-decoration: none;
 }
 
+/* MAIN DE MI PAGINA */
+
 .section-main{
     position: absolute;
 }
@@ -55,6 +74,13 @@ section nav .links li a{
     width: 1349px;
 }
 
+h1{
+    background-color: white;
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+} 
+
 .section-main div{
     position: relative;
     bottom:  300px;
@@ -62,7 +88,8 @@ section nav .links li a{
     text-align: center;
 }
 
-div h1, div p{
+div p{
+    margin-top: 20px;
     margin-bottom: 15px;
 }
 
@@ -73,7 +100,79 @@ div button{
     border: none;
 }
 
+/* VENTA DE MI PAGINA  */
 
+.productos{
+    background-color: white;
+    margin-top: 542px;
+}
+
+.productos .pata-grande {
+    margin-top: 15px;
+    height: 100px;
+    width: auto;
+}
+
+section .productos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+section  .destacados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #b83c3c;
+}
+
+
+section ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+section  ul  li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.venta ul li a{
+    text-decoration: none;
+    font-size: 20px;
+
+} 
+
+.img-productos{
+    display: flex;
+    justify-content: center;
+}
+
+.img-productos div{
+    margin-right: 5px;
+}
+
+.img-productos p{
+    display: flex;
+    justify-content: center;
+}
+
+.precio{
+    color: #F0A83E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* FORMULARIO */
+
+
+
+
+/* FOOTER */
 
 
 
