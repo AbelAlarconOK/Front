@@ -1,30 +1,106 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .descuentos{
-    background-color: #00ffff;
+    background-color: #1CD1B0;
     padding: 10px 903px 10px 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
 }
 
 h1{
-    background-color: #0000ff;
+    background-color: #00669F;
     padding: 26px 868px 26px 28px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
 }
 
-div{
-    position: relative;
-    margin-top: 153px;
-    margin-bottom: 153px;
-    margin-right: 362px;
-    margin-left: 362px;
+.cards{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.card-batman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 10px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url('/ROOT/IMG/849bfede3a5193c34ab8a00379e64fa2\ 1.png') ;
+    background-size: 300px;
+    height: 475px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-color: #f3f3f3;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3) ;
+}
+
+.batman{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    gap: 10px;    
+
+}
+
+
+.batman button{
+    border-radius: 5px;
+    background-color: #00669F;
+    border: none;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.batman h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.batman p{
+    text-align: center;
+}
+
+.batman button a{
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .corazon{
-    position: absolute;
-    z-index: 100;
+    position: relative;
+    top: 20px;
+    right: 120px;
 }
+
+/* FOOTER */
+
+footer{
+    height: 50px;
+    background-color: #00669F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer div{
+    margin-left: 10px;
+}
+
+footer div p{
+    color: #f3f3f3;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+
+
