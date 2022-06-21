@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header-home{
+    height: 50px;
+    width: 100vw;
+    background-color:#F0A83E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-home i {
+    color: #f3f3f3;
+}
+
+.header-home .nav-home{
+    display: none;
+}
+
+/* MAIN */
+
+
+.principal-home{
+    height: 70vw;
+    background-image: url('/ROOT/img/principal.png');
+    /* background-size: 600px; */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.principal-texto h1{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    background-color: #f3f3f3;
+    color: #000000;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.principal-texto p{
+    text-align: end;
+    
+}
+
+.principal-texto button{
+    margin-left: 150px;
+    padding: 10px 10px; 
+    background-color: #F0A83E;
+    color: #f3f3f3;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* SECTION VENTA */
+
+
+.footer-venta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-venta nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 5px;
+}
+
+.footer-venta h2{
+    font-size: 2.2rem;
+    text-align: center;
+    color: #3C2313;
+    margin-bottom: 10px;
+
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.churrasquito{
+    width: 220px;
+    height: 225px;
+    background-image: url('/ROOT/img/churrasquito.png');
+    background-size: 220px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.comederos{
+    width: 220px;
+    height: 225px;
+    background-image: url('/ROOT/img/comedero.png');
+    background-size: 220px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.huesitos{
+    width: 220px;
+    height: 225px;
+    background-image: url('/ROOT/img/Huesito.png');
+    background-size: 220px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.productos p{
+    color: #F0A83E;
+}
+
+/* FORMULARIO */
+
+.contactanos{
+    width: 100vw;
+}
+
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contacto h2{
+    color: #3C2313;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 15px;
+}
+
+.form-contacto input{
+    background-color: #3C2313;
+    height: 10vw;
+    width: 70vw;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.form-contacto .enviar{
+    background-color: #F0A83E;
+    border: none;
+    color: #ffffff;
+    width: 45vw;
+}
+
+
+.form-contacto .resetear{
+    background-color: #808080;
+    border: none;
+    color: #ffffff;
+    width: 45vw;
+}
+
+/* SUSCRIPCION */
+
+.suscribite{
+    height: 90px;
+    width: 100vw;
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+
+.img{
+    display: flex;
+    gap: 10px;
+}
+
+.suscribite img{
+    height: 30px;
+    width: 35px;
+}
+
+.suscribite h2{
+    font-size: 1.2rem;
+    color: #f3f3f3;
+    margin-top: 5px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+form .input-texto{
+    background-color: #f3f3f3;
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+form .button{
+    background-color: #3C2313;
+    color: #f3f3f3;
+    padding: 5px;
+    border-radius: 10px ;
+    height: 30px;
+}
+
+/* CONTACTOS */
+
+.contactos{
+    height: 300px;
+    width: 100vw;
+    background-color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactos .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.contactos .img-logo{
+    height: 20px;
+    width: 150px;
+}
+
+.contactos div{
+    width: 210px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.contactos img{
+    height: 50px;
+}
+
+.contactos .img-phone{
+    height: 65px;
+    width: 220px;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 5%;
+    width: 100vw;
+    background-color: #222;
+}
+
+.footer h3{
+    color: #f3f3f3;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+
+/*********************************************************************/
+
+/* TABLET */
+
+
+@media (min-width:500px){
+
+    .fa-hamburger{
+        display: none;
+    }
+
+    .header-home{
+        justify-content: space-between;
+    }
+
+    .header-home img{
+        margin-left: 10px;
+    }
+
+
+    .header-home .nav-home{
+        display: block;
+        justify-content: flex-end;
+    }
+    
+    .nav-home nav ul{  
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        gap: 10px;
+    }
+
+    .nav-home nav ul a{
+        text-decoration: none;
+    }
+
+    .principal-home{
+        height: 40vw;
+        width: 100vw;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .principal-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+    .principal-texto h1{
+        padding: 10px 80px;
+        margin-bottom: 15px;
+        font-size: 2rem;
+    }
+
+    .principal-texto .principal-p{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .principal-texto .principal-button{
+        margin-right: 150px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .venta .productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+    .churrasquito{
+        width: 25vw;
+        height: 30vw;
+        background-size: 25vw;
+    }
+    
+    .comederos{
+        width: 25vw;
+        height: 30vw;
+        background-size: 25vw;
+    }
+    
+    .huesitos{
+        width: 25vw;
+        height: 30vw;
+        background-size: 25vw;
+    }
+
+    .footer-venta div img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .footer-venta  h2{
+        font-size: 3.5rem;
+    }
+
+    .footer-venta nav ul li{
+        font-size: 1.2rem;
+    }
+
+    .productos div{
+        font-size: 1.2rem;
+    }
+
+    .contactanos .form-contacto h2{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .contactanos .form-contacto input{
+        height: 3vw;
+        width: 30vw;
+    }
+
+    .form-contacto .botones{
+        width: 20vw;
+    }
+
+    .suscribite{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .suscribite .img{
+        margin-left: 5vw;
+    }
+
+    .suscribite form{
+        margin-right: 5vw;
+    }
+
+    .suscribite .input-texto{
+        height: 3vw;
+        width: 20vw;
+        border-radius: 20px;
+    }
+
+    .suscribite .button{
+        height: 3vw;
+        width: 12vw;
+        border-radius: 20px;
+    }
+
+    .contactos {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contactos .img-contactos{
+        margin-left: 5vw;
+    }
+
+    .contactos .img-logo{
+        height: 25px;
+        width: 250px;
+        margin-right: 20vw;
+    }
+
+
+    .footer h3{
+        font-size: 1.2rem;
+    }
+
+}

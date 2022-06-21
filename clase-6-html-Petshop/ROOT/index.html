@@ -4,36 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El rincon del Café</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/ROOT/CSS/styles1.css">
 </head>
-
 <body>
     
-    <!-- Parte superior del sitio -->
-    <header>
-        <!-- LOGO -->
-        <img src="https://gourmetdemexico.com.mx/wp-content/uploads/2020/06/cafe-en-grano-de-oaxaca.jpg" alt="Logo de sitio web " style="width: 75px ;">
+    <header class="header-home">
 
-        <!-- BARRA de navegacion -->
-        <nav>
-            <!-- LISTA desordenada -->
-            <ul>
+        <div class="img-logo">
+            <img src="./img/Logo.png" alt="">
+        </div>
 
-                <li>
-                    <!-- HIPERVINCULO  -->
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./nuestrocafe.html"> Nuestro café</a>
-                </li>
-                <li>
-                    <a href="./historiacafe.html"> Historia del café</a>
-                </li>
+        
+        <!-- BARRA -->
+        <div class="nav-home">
+            <nav>
+                <ul class="links">
+                    <li>
+                        <a href="">
+                            <img src="./img/patita.png" alt=""> 
+                            Categorías
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/patita.png" alt="">
+                            Pets 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/patita.png" alt="">
+                            Nosotros 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/patita.png" alt="">
+                            Contactanos
+                        <a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
-            </ul>
+        <div>
+            <i class="fas fa-hamburger"></i>
+        </div>
 
-        </nav>
     </header>
 
+    <main class="principal-home">
+        <div class="principal-texto">
+            <h1>¡Es un placer tenerte aqui!</h1>
+            <p class="principal-p">¡comedores descuentos!</p>
+            <button class="principal-button">COMEDEROS</button>
+        </div>
+    </main>
+
+    <!-- VENTAS -->
+
+    <section class="venta">
+        <footer class="footer-venta">
+            <div>
+                <img src="/ROOT/img/patagrande.png" alt="">
+            </div>
+            <h2>Productos Destacados</h2>
+            <div>
+                <nav>
+                    <ul>
+                        <li>Comederos -</li>
+                        <li>Accesorios -</li>
+                        <li>Comidas </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+        <section class="productos">
+            <div class="churrasquito">Juguete churrasquito <p>$150</p></div>
+            <div class="comederos">Comedero para perro <p>$250</p></div>
+            <div class="huesitos">Juguete huesito <p>$650</p></div>
+        </section>
+
+    </section>
+
+    <div class="contactanos">
+
+        <div class="form">
+            <form class="form-contacto" action="">
+                <h2>Contáctenos</h2>
+                <label for=""></label>
+                <input type="text" placeholder="Nombre y Apellido">
+                <label for=""></label>
+                <input type="email" placeholder="Ingrese tu correo electronico">
+                <label for=""></label>
+                <input type="tel" placeholder="Telefono">
+
+                <div class="botones">
+                    <input class="resetear" type="reset" value="Resetear">
+                    <input class="enviar" type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </div>
+        
+    </div>
+
+    <section class="suscribite">
+        <div class="img">
+            <img src="/ROOT/img/enviar-correo 1.png" alt="">
+            <h2>Suscribite para mas novedades</h2>
+        </div>
+
+        <form action="">
+            <label for=""></label>
+            <input class="input-texto" type="text" placeholder="Ingrese su correo electronico">
+            <input class="button"  type="submit" value="Suscribirme">
+        </form>
+    </section>
+
+    <section class="contactos">
+        <div class="logo">
+            <img class="img-logo" src="/ROOT/img/Logo-footer.png" alt="">
+        </div>
+        <div class="img-contactos" >
+            <img class="img-ubicacion" src="/ROOT/img/Location.png" alt="">
+            <img class="img-phone" src="/ROOT/img/Phone.png" alt="">
+            <img class="img-correo" src="/ROOT/img/Correo.png" alt="">
+        </div>
+    </section>
+    <section class="footer">
+        <h3>Todos los derechos reservados a Front End</h3>
+    </section>
+    
 </body>
 </html>
