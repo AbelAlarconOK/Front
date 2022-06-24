@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .texto{
+    background-color: #1CD1B0;
+}
+
+.texto p{
+    margin-left: 10px;
+}
+
+header .titulo-header{
+    background: #00669F;
+    padding: 10px;
+
+}
+
+header .nav{
+    background: #001D2D;
+}
+
+header .nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav ul li{
+    margin: 10px;
+}
+
+main{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.formulario{
+    height: 40vw;
+    width: 50vw;
+    border-radius: 40px;
+    background: #00669F;
+}
+
+.formulario .texto-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+form .checkbox{
+    display: inline;
+}
+
+form .radio{
+    display: inline;
+}
+
+form .button{
+    position: absolute;
+    bottom: -60px;
+}
+
+footer{
+    background: #00669F;
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
