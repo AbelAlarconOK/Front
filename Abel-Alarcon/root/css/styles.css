@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -26,12 +28,9 @@ header{
 
 }
 
-
 header div{
     display: none;
 }
-
-
 
 /* MAIN */
 
@@ -481,6 +480,16 @@ footer .footer-2 button:hover{
 
 .footer-2 .nav-footer a:hover{
     color: #F3603B;
+}
+
+form input:invalid{
+    border:red solid 1px;
+}
+
+
+
+form input:invalid::placeholder{
+    color: red;
 }
 
 form:hover:invalid .error{

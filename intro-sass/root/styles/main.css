@@ -1,0 +1,25 @@
+/*Colores - 70% 20% 10% */
+main {
+  display: flex;
+}
+
+/*NESTING Y USO DE @extend*/
+article {
+  height: 90vh;
+  width: 100vw;
+}
+article .button, article .button-secundario, article .button-primario {
+  width: 200px;
+  height: 50px;
+  margin: 10px 30px;
+  border-radius: 10%;
+  border: none;
+  transition: all 0.5s linear;
+  padding: 5px;
+}
+article .button-primario {
+  background-color: #fe001a;
+}
+article .button-secundario {
+  background-color: rgb(255, 255, 255);
+}/*# sourceMappingURL=main.css.map */

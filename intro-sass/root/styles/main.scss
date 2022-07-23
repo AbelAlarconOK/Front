@@ -1,0 +1,56 @@
+// Variables
+
+
+$contenedor-flex: flex;
+
+
+
+/*Colores - 70% 20% 10% */
+
+$color-principal:#fe001a;
+
+$color-secundario:rgb(255, 255, 255);
+
+$color-alternativo:#000;
+
+
+main{
+    display: $contenedor-flex;
+}
+
+/*NESTING Y USO DE @extend*/
+
+article{
+    height: 90vh;
+    width: 100vw;
+
+    button:hover{
+        background-color: red;
+    }
+
+
+
+    .button{
+        width: 200px;
+        height: 50px;
+        margin: 10px 30px;
+        border-radius: 10%;
+        border: none;
+        transition: all 0.5s linear;
+        padding: 5px;
+
+        &-primario{
+            @extend .button;
+            @extend button;
+            background-color: $color-principal;
+        }
+        &-secundario{
+            @extend .button;
+            background-color: $color-secundario;
+        }
+        &-alternativo{
+            @extend .button;
+            background-color: $color-alternativo;
+        }
+    }
+}
